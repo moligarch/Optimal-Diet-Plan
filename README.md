@@ -43,5 +43,5 @@ This project aims to optimize diet plans with the following 5 phases:
 
 
 
-+ Documentation: [PuLP 2.7]("coin-or.github.io/pulp/index.html")
-+ Example: [Hands-On Linear Programming]("realpython.com/linear-programming-python/")
++ Documentation: [PuLP 2.7]("https://coin-or.github.io/pulp/index.html")
++ Example: [Hands-On Linear Programming]("https://realpython.com/linear-programming-python/")
