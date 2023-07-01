@@ -1,4 +1,4 @@
-# Diet Plan Optimization with Linear Programming
+# Diet Planning Optimization with Linear Programming
 
 ## Introduction
 
@@ -17,14 +17,14 @@ A diet plan specifies the types and amounts of food to eat over a set period of 
 
 ## Project Phases
 
-This project aims to optimize diet plans with the following 5 phases:
+This project aims to optimize diet plans with the following 4 phases:
 
-- [x] **[⛏ Data Gathering/Mining](#⛏Phase-1:-Data-Mining)** - Recipes and nutrition data will be scraped from the [BBC Good Food]("bbcgoodfood.com") website, focusing on quick and easy recipes that require minimal preparation time.
+- [x] **⛏ Data Gathering/Mining** - Recipes and nutrition data will be scraped from the BBC Good Food website, focusing on quick and easy recipes that require minimal preparation time.
     - [x] Define what we are looking for
     - [x] Define data scrapping functions
     - [x] Store gathered data into dataset
 
-- [x] **[🧹 Data Cleaning/Selecting](#🧹Phase-2:-Data-Cleaning)** - Missing and erroneous data will be identified and removed. Incomplete recipes will be discarded.
+- [x] **🧹 Data Cleaning/Selecting** - Missing and erroneous data will be identified and removed. Incomplete recipes will be discarded.
     - [x] Classify foods with category and sub-category
     - [x] Append recipes and their classification into dataset/data frame
     - [x] Remove missing values
@@ -32,16 +32,16 @@ This project aims to optimize diet plans with the following 5 phases:
     - [x] Select data by condition (Preparation time + Cocking time < 30 min)
     - [x] Save modified dataset into file (.csv)
 
-- [x] **[⚖ Data Processing](#⚖Phase-3:-Data-Processing)** - An LP model will be formulated to generate optimized diet plans that maximize nutrition while minimizing preparation time.
+- [x] **⚖ Data Processing** - An LP model will be formulated to generate optimized diet plans that maximize nutrition while minimizing preparation time.
     - [x] Make a structure for user prefrences input
+    - [x] `Define variables`, `constreints` and `objective function`
     - [x] Find optimized mix of recipes according to `Cleaned Dataset`
 
-- [ ] **[✅ Validation](#✅Phase-4:-Validation)** - Results will be cross-checked against standards from the USDA food composition database to ensure nutritional adequacy.
-    - [ ] Check if found solution prefrences are according to user wants with respect to USDA Food Compositions
-    - [ ] Pass to Visualization or Recalculate solution
-- [ ] **[📊 User Interface](#📊Phase-5:-Interface)** - A web app will be built to display personalized diet plans and the recipes included in each meal.
 
-
-
-+ Documentation: https://coin-or.github.io/pulp/
-+ Example: "https://realpython.com/linear-programming-python/
+- [x] **📊 GUI** - Build a Graphic User Interface(GUI) will by Tkinter library.
+    - [x] Design general wireframe
+    - [x] Implement input box to get user prefrences
+    - [x] Read data and group food by category.
+    - [x] Add popup for more information about food (ingredients, steps, name and etc.
+     
+- [x] **✅ COMPLETED** : This project got successfully COMPLETED! Hooray! 👌😁
