@@ -43,5 +43,6 @@ This project aims to optimize diet plans with the following 4 phases:
     - [x] Implement input box to get user prefrences
     - [x] Read data and group food by category.
     - [x] Add popup for more information about food (ingredients, steps, name and etc.
+    - [x] Add popup to show shopping list
      
 - [x] **✅ COMPLETED** : This project got successfully COMPLETED! Hooray! 👌😁
